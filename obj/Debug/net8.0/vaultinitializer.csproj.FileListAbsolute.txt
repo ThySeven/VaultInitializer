@@ -1,0 +1,17 @@
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\bin\Debug\net8.0\vaultinitializer.exe
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\bin\Debug\net8.0\vaultinitializer.deps.json
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\bin\Debug\net8.0\vaultinitializer.runtimeconfig.json
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\bin\Debug\net8.0\vaultinitializer.dll
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\bin\Debug\net8.0\vaultinitializer.pdb
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\bin\Debug\net8.0\VaultSharp.dll
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\vaultinitializer.csproj.AssemblyReference.cache
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\vaultinitializer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\vaultinitializer.AssemblyInfoInputs.cache
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\vaultinitializer.AssemblyInfo.cs
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\vaultinitializer.csproj.CoreCompileInputs.cache
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\vaultinitializer.csproj.CopyComplete
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\vaultinitializer.dll
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\refint\vaultinitializer.dll
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\vaultinitializer.pdb
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\vaultinitializer.genruntimeconfig.cache
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\ref\vaultinitializer.dll

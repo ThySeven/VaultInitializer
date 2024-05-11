@@ -1,0 +1,64 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "vaultinitializer/1.0.0": {
+        "dependencies": {
+          "VaultSharp": "1.13.0.1"
+        },
+        "runtime": {
+          "vaultinitializer.dll": {}
+        }
+      },
+      "System.Text.Encodings.Web/7.0.0": {},
+      "System.Text.Json/7.0.2": {
+        "dependencies": {
+          "System.Text.Encodings.Web": "7.0.0"
+        }
+      },
+      "VaultSharp/1.13.0.1": {
+        "dependencies": {
+          "System.Text.Json": "7.0.2"
+        },
+        "runtime": {
+          "lib/net7.0/VaultSharp.dll": {
+            "assemblyVersion": "1.13.0.1",
+            "fileVersion": "1.13.0.1"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "vaultinitializer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "System.Text.Encodings.Web/7.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OP6umVGxc0Z0MvZQBVigj4/U31Pw72ITihDWP9WiWDm+q5aoe0GaJivsfYGq53o6dxH7DcXWiCTl7+0o2CGdmg==",
+      "path": "system.text.encodings.web/7.0.0",
+      "hashPath": "system.text.encodings.web.7.0.0.nupkg.sha512"
+    },
+    "System.Text.Json/7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/LZf/JrGyilojqwpaywb+sSz8Tew7ij4K/Sk+UW8AKfAK7KRhR6mKpKtTm06cYA7bCpGTWfYksIW+mVsdxPegQ==",
+      "path": "system.text.json/7.0.2",
+      "hashPath": "system.text.json.7.0.2.nupkg.sha512"
+    },
+    "VaultSharp/1.13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-0nFsF/ggmDCCppwopCLp2QGhAgDggX1m3hWluaKeTr56Bq9rmmGrFsBKpeYraKbJKbBCdeacMUS/8rH/GgvyHw==",
+      "path": "vaultsharp/1.13.0.1",
+      "hashPath": "vaultsharp.1.13.0.1.nupkg.sha512"
+    }
+  }
+}
