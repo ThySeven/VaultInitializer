@@ -2,7 +2,6 @@
 using VaultSharp.V1.AuthMethods.Token;
 using VaultSharp.V1.AuthMethods;
 using VaultSharp.V1.Commons;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 using VaultSharp.Core;
 
 var EndPoint = Environment.GetEnvironmentVariable("VAULT_IP");

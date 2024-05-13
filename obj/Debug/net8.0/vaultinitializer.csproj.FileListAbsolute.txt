@@ -15,3 +15,12 @@ C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultShar
 C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\vaultinitializer.pdb
 C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\vaultinitializer.genruntimeconfig.cache
 C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\SecretsApp\obj\Debug\net8.0\ref\vaultinitializer.dll
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.csproj.AssemblyReference.cache
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.AssemblyInfoInputs.cache
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.AssemblyInfo.cs
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.csproj.CoreCompileInputs.cache
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.sourcelink.json
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.dll
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\refint\VaultInitializer.dll
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.pdb
