@@ -209,9 +209,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\JeffS\\Dropbox\\EAAA\\4.Semester\\IT-Arkitektur&Infrastruktur\\M10\\VaultSharp\\VaultInitializer\\vaultinitializer.csproj",
-      "projectName": "vaultinitializer",
-      "projectPath": "C:\\Users\\JeffS\\Dropbox\\EAAA\\4.Semester\\IT-Arkitektur&Infrastruktur\\M10\\VaultSharp\\VaultInitializer\\vaultinitializer.csproj",
+      "projectUniqueName": "C:\\Users\\JeffS\\Dropbox\\EAAA\\4.Semester\\IT-Arkitektur&Infrastruktur\\M10\\VaultSharp\\VaultInitializer\\VaultInitializer.csproj",
+      "projectName": "VaultInitializer",
+      "projectPath": "C:\\Users\\JeffS\\Dropbox\\EAAA\\4.Semester\\IT-Arkitektur&Infrastruktur\\M10\\VaultSharp\\VaultInitializer\\VaultInitializer.csproj",
       "packagesPath": "C:\\Users\\JeffS\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\JeffS\\Dropbox\\EAAA\\4.Semester\\IT-Arkitektur&Infrastruktur\\M10\\VaultSharp\\VaultInitializer\\obj\\",
       "projectStyle": "PackageReference",
@@ -236,9 +236,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "default"
       }
     },
     "frameworks": {

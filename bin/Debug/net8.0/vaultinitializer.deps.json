@@ -6,12 +6,12 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v8.0": {
-      "vaultinitializer/1.0.0": {
+      "VaultInitializer/1.0.0": {
         "dependencies": {
           "VaultSharp": "1.13.0.1"
         },
         "runtime": {
-          "vaultinitializer.dll": {}
+          "VaultInitializer.dll": {}
         }
       },
       "System.Text.Encodings.Web/7.0.0": {},
@@ -34,7 +34,7 @@
     }
   },
   "libraries": {
-    "vaultinitializer/1.0.0": {
+    "VaultInitializer/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

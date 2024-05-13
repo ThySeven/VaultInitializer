@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VaultInitializer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e5b39b7d9a3e97598b963416854709e0f4232cdb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e3a76c55fbd53716d9e2f84420848cfd1cdfef34")]
 [assembly: System.Reflection.AssemblyProductAttribute("VaultInitializer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VaultInitializer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -24,3 +24,12 @@ C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultShar
 C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.dll
 C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\refint\VaultInitializer.dll
 C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.pdb
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\bin\Debug\net8.0\VaultInitializer.exe
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\bin\Debug\net8.0\VaultInitializer.deps.json
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\bin\Debug\net8.0\VaultInitializer.runtimeconfig.json
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\bin\Debug\net8.0\VaultInitializer.dll
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\bin\Debug\net8.0\VaultInitializer.pdb
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\bin\Debug\net8.0\VaultSharp.dll
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.csproj.CopyComplete
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.genruntimeconfig.cache
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\ref\VaultInitializer.dll
