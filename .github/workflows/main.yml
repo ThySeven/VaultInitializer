@@ -71,14 +71,15 @@ jobs:
       run: echo "lowercase_repo_name=$(echo '${{ steps.repo_name.outputs.name }}' | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
 
 
-    - name: Build and push the Docker image with lowercase repo name
+    - name: Build and push the Docker image with Buildx
       uses: docker/build-push-action@v2
       with:
         context: .
         file: Dockerfile
         push: true
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.lowercase_repo_name }}:${{ steps.docker_tag.outputs.tag }}
-
+        platforms: linux/amd64, linux/arm64
+    
     - name: Build and push the Docker image version
       uses: docker/build-push-action@v2
       with:
@@ -86,6 +87,7 @@ jobs:
         file: Dockerfile
         push: true
         tags: ${{ secrets.DOCKERHUB_USERNAME }}/${{ env.lowercase_repo_name }}:${{ steps.versioning.outputs.new_version }}
+        platforms: linux/amd64, linux/arm64
 
     - name: Commit VERSION file change
       run: |
