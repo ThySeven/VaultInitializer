@@ -89,16 +89,12 @@ while (!secretsWritten)
         }
         else
         {
-            Console.WriteLine(Environment.GetEnvironmentVariable("JWTSecret"));
-            Console.WriteLine(Environment.GetEnvironmentVariable("JWTIssuer"));
             Console.WriteLine(e.Message);
             AuctionCoreLogger.Logger.Warn(e.Message);
         }
     }
     catch (Exception e)
     {
-        Console.WriteLine(Environment.GetEnvironmentVariable("JWTSecret"));
-        Console.WriteLine(Environment.GetEnvironmentVariable("JWTIssuer"));
         // Handle unexpected exceptions.
         Console.WriteLine(e.Message);
         AuctionCoreLogger.Logger.Warn(e.Message);
