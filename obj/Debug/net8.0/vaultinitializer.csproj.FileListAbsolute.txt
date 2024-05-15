@@ -33,3 +33,7 @@ C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultShar
 C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.csproj.CopyComplete
 C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\VaultInitializer.genruntimeconfig.cache
 C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\obj\Debug\net8.0\ref\VaultInitializer.dll
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\bin\Debug\net8.0\NLog.dll
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\bin\Debug\net8.0\NLog.Loki.dll
+C:\Users\JeffS\Dropbox\EAAA\4.Semester\IT-Arkitektur&Infrastruktur\M10\VaultSharp\VaultInitializer\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
