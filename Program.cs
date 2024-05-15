@@ -74,8 +74,6 @@ while (!secretsWritten)
                 { "issuer", Environment.GetEnvironmentVariable("JWTIssuer") },
                 { "internalApiKey", "ThySevenSecretInternalApiKey" }
             };
-            Console.WriteLine(Environment.GetEnvironmentVariable("JWTSecret"));
-            Console.WriteLine(Environment.GetEnvironmentVariable("JWTIssuer"));
             // Create the secret since it wasn't found
             await vaultClient.V1.Secrets.KeyValue.V2.WriteSecretAsync(path: "jwt", dataToCreate, mountPoint: "secret");
 
