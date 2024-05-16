@@ -36,6 +36,7 @@ while (vaultClient == null)
         };
         vaultClient = new VaultClient(vaultClientSettings);
         AuctionCoreLogger.Logger.Info("Initializing Vault Setup");
+        break;
     }
     catch (Exception ex)
     {

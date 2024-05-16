@@ -5,10 +5,6 @@ on:
     branches:
       - main  # Adjust this to match the branch you want to trigger the build.
       - dev
-  pull_request:
-    branches:
-      - main
-      - dev
 permissions:
   contents: write
 
