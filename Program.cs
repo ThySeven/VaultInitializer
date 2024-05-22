@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
@@ -8,11 +9,12 @@ using Microsoft.Azure.WebJobs;
 using Microsoft.Azure.WebJobs.Extensions.Http;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using Newtonsoft.Json;
 using VaultSharp;
 using VaultSharp.V1.AuthMethods.Token;
-using VaultSharp.V1.AuthMethods;
 using VaultSharp.V1.Commons;
 using VaultSharp.Core;
+using VaultSharp.V1.AuthMethods;
 
 public static class VaultInitializerFunction
 {
@@ -26,21 +28,34 @@ public static class VaultInitializerFunction
         [TimerTrigger("0 */5 * * * *")] TimerInfo myTimer, ILogger log)
     {
         log.LogInformation("C# Timer trigger function executed at: {time}", DateTime.Now);
-        await InitializeVaultSecrets(log);
+        await InitializeVaultSecrets(null, log); // Pass null or any appropriate value for vaultIp
     }
 
     [FunctionName("VaultInitializerHttpFunction")]
     public static async Task<IActionResult> RunHttp(
-        [HttpTrigger(AuthorizationLevel.Function, "get", "post", Route = null)] HttpRequest req, ILogger log)
+        [HttpTrigger(AuthorizationLevel.Function, "post", Route = null)] HttpRequest req, ILogger log)
     {
         log.LogInformation("C# HTTP trigger function executed at: {time}", DateTime.Now);
-        await InitializeVaultSecrets(log);
+
+        // Retrieve the vaultIp from the request body
+        string requestBody = await new StreamReader(req.Body).ReadToEndAsync();
+        dynamic data = JsonConvert.DeserializeObject(requestBody);
+        string vaultIp = data?.vaultIp;
+
+        // Check if vaultIp is provided
+        if (string.IsNullOrEmpty(vaultIp))
+        {
+            return new BadRequestObjectResult("Please provide 'vaultIp' in the request body.");
+        }
+
+        // Call the InitializeVaultSecrets method with the provided vaultIp
+        await InitializeVaultSecrets(vaultIp, log);
+
         return new OkObjectResult("Vault secrets initialization triggered via HTTP.");
     }
 
-    private static async Task InitializeVaultSecrets(ILogger log)
+    private static async Task InitializeVaultSecrets(string vaultIp, ILogger log)
     {
-        string vaultIp = Environment.GetEnvironmentVariable("VAULT_IP");
         string vaultSecret = Environment.GetEnvironmentVariable("VAULT_SECRET");
         string jwtSecret = Environment.GetEnvironmentVariable("JWTSecret");
         string jwtIssuer = Environment.GetEnvironmentVariable("JWTIssuer");
